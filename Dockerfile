@@ -11,7 +11,7 @@ COPY fetcher_regional.py .
 COPY gunicorn.conf.py .
 
 # Environment variables (override these in deployment)
-ENV REGION_ID=fetcher-region-1
+ENV REGION_ID=fetcher-region-2
 ENV PORT=8080
 
 # Run with Gunicorn
